@@ -107,7 +107,7 @@ end
 local function findNewTarget()
     local players = game.Players:GetPlayers()
     local newTarget = nil
-    for _, player in pairs(players) do```[]
+    for _, player in pairs(players) do[]
             frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
         end
     end)
